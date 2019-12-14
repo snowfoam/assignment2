@@ -1,4 +1,5 @@
 <template>
+  <meta http-equiv="Access-Control-Allow-Origin" content="*">
   <div class="wrapper">
     <div class="boot"></div>
   </div>

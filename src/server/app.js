@@ -52,6 +52,7 @@ app.use(function (err, req, res, next) {
   res.render('error');
 });
 
+
 mongoose.connect(`${config.db}`,{useUnifiedTopology: true,useNewUrlParser: true})
 // mongoose.connection.on('error', function (error) {
 //   console.log('数据库连接失败:' + error);

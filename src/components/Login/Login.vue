@@ -1,4 +1,5 @@
 <template>
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
   <div class="login">
     <van-nav-bar title="Login" left-arrow @click-left="$router.back()" />
    <div class="email">

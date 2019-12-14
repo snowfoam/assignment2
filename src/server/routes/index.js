@@ -1,4 +1,5 @@
 const express = require('express');
+const app =express();
 const router = express.Router();
 const multer = require('multer')
 const path = require('path')
@@ -24,6 +25,7 @@ let url = 'http://localhost:3000/img/'
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
+
 
 router.post('/upload', upload.single('avatar'), async ( req, res) => {
   let filename = req.file.filename

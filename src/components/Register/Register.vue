@@ -1,4 +1,5 @@
 <template>
+  <meta http-equiv="Access-Control-Allow-Origin" content="*">
   <div>
     <div v-show="pageShow">
       <van-nav-bar id="title" title="New User" left-arrow @click-left="goback(0)" >New User</van-nav-bar>

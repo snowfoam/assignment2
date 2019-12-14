@@ -1,4 +1,5 @@
 <template>
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
   <div>
       <van-cell id="clickdynamic" title="Friends Dynamic" size="large" is-link :to="{'name':'articleDetail'}" />
   </div>
