@@ -117,6 +117,7 @@ export default {
   },
   created() {
     this.getArticle();
+    console.log(this.list)
   },
   methods: {
     create() {
