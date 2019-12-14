@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "start": "npm run build && node ./src/server/bin/www",
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "start:server": "cd ./dist && http-server -p 9000 & wait-on http://localhost:9000"
   },
   "dependencies": {
     "amfe-flexible": "^2.2.1",
@@ -29,7 +30,8 @@
     "cypress": "^3.8.0",
     "less": "^3.0.4",
     "less-loader": "^5.0.0",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.10",
+    "wait-on": "^3.3.0"
   },
   "postcss": {
     "plugins": {
