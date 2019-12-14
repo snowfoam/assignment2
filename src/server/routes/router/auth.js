@@ -108,7 +108,8 @@ router.post('/code', async (req, res) => {
 })
 
 // 验证验证码
-router.post('/checkCode', async (req, res) => {
+router.post('/checkCode', async (req, res) => {res.header("Access-Control-Allow-Origin", "*");
+
   /*let { code } = req.body
   let Code = req.cookies.code
   // let Code = JSON.parse(req.headers.cookie).code
