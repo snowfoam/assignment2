@@ -1,11 +1,12 @@
-tests:
-  image: cypress/base:10
-  cache:
-    paths:
-      - node_modules/
-  stage:
-      - install
-      - test
+
+image: cypress/base:10
+
+cache:
+  paths:
+    - node_modules/
+stages:
+    - install
+    - test
 
 install_dependencies:
   stage: install
