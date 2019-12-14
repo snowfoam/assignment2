@@ -1,5 +1,4 @@
 <template>
-  <meta http-equiv="Access-Control-Allow-Origin" content="*">
   <div style="width:100%;height:100%;overflow: hidden;">
     <div style="height: 8%">
       <van-nav-bar :title="active" @click-right="right" @click-left="left" class="bar"><!--点击头像改数据-->

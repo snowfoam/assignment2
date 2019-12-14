@@ -1,5 +1,4 @@
 <template>
-  <meta http-equiv="Access-Control-Allow-Origin" content="*">
   <div style="height:100%;wdith:100%;">
       <van-nav-bar
         id="dynamictitle"

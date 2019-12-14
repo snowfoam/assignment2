@@ -1,5 +1,4 @@
 <template>
-  <meta http-equiv="Access-Control-Allow-Origin" content="*">
   <div>
     <van-pull-refresh v-model="isRefresh" @refresh="onRefresh" style="width:100%;height:100%;">
       <van-list v-model="loading" :finished="finished" finished-text="No more">

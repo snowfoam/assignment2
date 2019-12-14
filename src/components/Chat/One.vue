@@ -1,5 +1,4 @@
 <template>
-  <meta http-equiv="Access-Control-Allow-Origin" content="*">
   <div>
     <van-sticky>
       <van-nav-bar :title="title" left-arrow @click-left="$router.back()" />

@@ -1,5 +1,4 @@
 <template>
-  <meta http-equiv="Access-Control-Allow-Origin" content="*">
   <div>
     <van-pull-refresh v-model="isRefresh" @refresh="onRefresh">
       <van-cell id="title1" title="New Friend" value=">" size="large" @click="show" />
